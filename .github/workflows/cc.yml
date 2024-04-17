@@ -3,7 +3,7 @@ name: Continuous Integration & Deployment
 on:
   push:
     branches:
-      - main  # Déclenche le flux de travail lorsqu'un commit est poussé sur la branche main
+      - master  # Déclenche le flux de travail lorsqu'un commit est poussé sur la branche main
 
 jobs:
   build_and_deploy:
