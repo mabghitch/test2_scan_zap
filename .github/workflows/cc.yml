@@ -20,9 +20,9 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build de l'image Docker
-      run: docker build --tag fathallahblh/testvcode3:latest .
+      run: docker build --tag maguihightech/app_majda:latest .
 
     - name: Push de l'image vers Docker Hub
-      run: docker push fathallahblh/testvcode3:latest
+      run: docker push maguihightech/app_majda:latest
 
 
